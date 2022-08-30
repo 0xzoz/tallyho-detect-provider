@@ -12,7 +12,7 @@ interface Window {
   ethereum?: TallyHoEthereumProvider;
 }
 
-export = detectEthereumProvider;
+export default detectEthereumProvider;
 
 /**
  * Returns a Promise that resolves to the value of window.ethereum if it is
