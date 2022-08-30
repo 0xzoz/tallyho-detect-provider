@@ -1,6 +1,6 @@
 {
   "name": "tallyho-detect-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny utility for detecting the TallyHo Ethereum provider, or any EIP 1193-compliant provider.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
