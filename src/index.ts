@@ -1,4 +1,4 @@
-interface TallyHoEthereumProvider {
+export interface TallyHoEthereumProvider {
   isTally?: boolean;
   once(eventName: string | symbol, listener: (...args: any[]) => void): this;
   on(eventName: string | symbol, listener: (...args: any[]) => void): this;
